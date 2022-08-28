@@ -100,18 +100,31 @@
                                     <action selector="btnAddItem:" destination="c2X-c1-j0g" eventType="touchUpInside" id="IWd-7M-MLo"/>
                                 </connections>
                             </button>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="rvq-RF-EeI">
+                                <rect key="frame" x="16" y="421" width="358" height="190"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <pickerView contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="KPJ-jf-Nha">
+                                <rect key="frame" x="16" y="225" width="358" height="146"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
+                                <connections>
+                                    <outlet property="delegate" destination="c2X-c1-j0g" id="cOS-ed-8uj"/>
+                                </connections>
+                            </pickerView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="zCw-s8-xD8"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                     </view>
                     <navigationItem key="navigationItem" title="Add View" id="CZf-9x-uv7"/>
                     <connections>
+                        <outlet property="imageView" destination="rvq-RF-EeI" id="UuN-QL-Fig"/>
+                        <outlet property="pickerImage" destination="KPJ-jf-Nha" id="vbN-f1-V2T"/>
                         <outlet property="tfAddItem" destination="0uu-gd-BZm" id="W2h-UA-rDZ"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="pih-es-Fbw" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2190.7692307692305" y="-213.27014218009478"/>
+            <point key="canvasLocation" x="2189.2307692307691" y="-213.27014218009478"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="c78-zo-YgD">
