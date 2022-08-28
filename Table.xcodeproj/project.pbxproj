@@ -16,6 +16,9 @@
 		47CF0F9D28BB977100063987 /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47CF0F9C28BB977100063987 /* TableViewController.swift */; };
 		47CF0F9F28BB97E800063987 /* AddViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47CF0F9E28BB97E800063987 /* AddViewController.swift */; };
 		47CF0FA128BB97FA00063987 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47CF0FA028BB97FA00063987 /* DetailViewController.swift */; };
+		47CF0FA528BB9A4400063987 /* cart.png in Resources */ = {isa = PBXBuildFile; fileRef = 47CF0FA228BB9A4400063987 /* cart.png */; };
+		47CF0FA628BB9A4400063987 /* clock.png in Resources */ = {isa = PBXBuildFile; fileRef = 47CF0FA328BB9A4400063987 /* clock.png */; };
+		47CF0FA728BB9A4400063987 /* pencil.png in Resources */ = {isa = PBXBuildFile; fileRef = 47CF0FA428BB9A4400063987 /* pencil.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +33,9 @@
 		47CF0F9C28BB977100063987 /* TableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
 		47CF0F9E28BB97E800063987 /* AddViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddViewController.swift; sourceTree = "<group>"; };
 		47CF0FA028BB97FA00063987 /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		47CF0FA228BB9A4400063987 /* cart.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cart.png; sourceTree = "<group>"; };
+		47CF0FA328BB9A4400063987 /* clock.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = clock.png; sourceTree = "<group>"; };
+		47CF0FA428BB9A4400063987 /* pencil.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pencil.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +68,9 @@
 		47CF0F8428BB597A00063987 /* Table */ = {
 			isa = PBXGroup;
 			children = (
+				47CF0FA228BB9A4400063987 /* cart.png */,
+				47CF0FA328BB9A4400063987 /* clock.png */,
+				47CF0FA428BB9A4400063987 /* pencil.png */,
 				47CF0F8528BB597A00063987 /* AppDelegate.swift */,
 				47CF0F8728BB597A00063987 /* SceneDelegate.swift */,
 				47CF0F8B28BB597A00063987 /* Main.storyboard */,
@@ -134,7 +143,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				47CF0FA728BB9A4400063987 /* pencil.png in Resources */,
 				47CF0F9528BB597B00063987 /* LaunchScreen.storyboard in Resources */,
+				47CF0FA628BB9A4400063987 /* clock.png in Resources */,
+				47CF0FA528BB9A4400063987 /* cart.png in Resources */,
 				47CF0F9228BB597B00063987 /* Assets.xcassets in Resources */,
 				47CF0F8D28BB597A00063987 /* Main.storyboard in Resources */,
 			);
